@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Prácticas, tema 1"
+                android:textSize="24dp" />
+
+
+            <Button
+                android:id="@+id/btnUno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Primer ejercicio" />
+
+            <Button
+                android:id="@+id/btnDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Segundo ejercicio" />
+
+            <Button
+                android:id="@+id/btnTres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Tercer ejercicio" />
+
+            <Button
+                android:id="@+id/btnCuatro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Cuarto ejercicio" />
+
+            <Button
+                android:id="@+id/btnCinco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Quinto ejercicio" />
+
+            <Button
+                android:id="@+id/btnSeis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Sexto ejercicio" />
+
+            <Button
+                android:id="@+id/btnSiete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Septimo ejercicio" />
+
+            <Button
+                android:id="@+id/btnOcho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Octavo ejercicio" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
